@@ -1,0 +1,8 @@
+BRCA,COAD,GBM,KIRC,KIRP,LGG,LUAD,OV,UCEC,ACC,BLCA,CHOL,ESCA,HNSC,KICH,LIHC,LUSC,PAAD,PCPG,PRAD,READ,SARC,SKCM,STAD,TGCT,THCA,THYM,UCS,UVM,Pan Cancer
+MT-RNR1,,,,,,MT-CYB,,MT-RNR1,MT-TL1,,MT-RNR2,MT-CYB,MT-ND5,MT-ND1,MT-ND1,,,,MT-RNR2,,MT-RNR1,,,MT-CYB,,MT-RNR1,,,MT-RNR1
+MT-RNR2,,,,,,,,MT-RNR2,,,MT-RNR1,,,,MT-ND2,,,,,,MT-RNR2,,,,,MT-RNR2,,,MT-RNR2
+MT-TT,,,,,,,,MT-TV,,,,,,,MT-ND3,,,,,,MT-CO1,,,,,,,,MT-CYB
+,,,,,,,,,,,,,,,MT-ND4,,,,,,MT-CO2,,,,,,,,
+,,,,,,,,,,,,,,,MT-ND4L,,,,,,MT-CO3,,,,,,,,
+,,,,,,,,,,,,,,,MT-ND5,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,MT-ND6,,,,,,,,,,,,,,

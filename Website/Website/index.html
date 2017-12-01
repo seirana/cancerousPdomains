@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Protein Coding Visualizatoin</title>
+    <meta name="description" content="Protein Coding Visualizatoin" />
+    <meta name="keywords" content="Protein Coding Visualizatoin" />
+    <meta name="author" content="seyrana hashemi" />
+    <!-- Favicons (created with http://realfavicongenerator.net/)-->
+    <link rel="apple-touch-icon" sizes="57x57" href="img/favicons/apple-touch-icon-57x57.png">
+    <!-- sa -->
+    <link rel="apple-touch-icon" sizes="60x60" href="img/favicons/apple-touch-icon-60x60.png">
+    <link rel="icon" type="image/png" href="img/favicons/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="img/favicons/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="img/favicons/manifest.json">
+    <link rel="shortcut icon" href="img/favicons/favicon.ico">
+    <meta name="msapplication-TileColor" content="#00a8ff">
+    <meta name="msapplication-config" content="img/favicons/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- Normalize -->
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <!-- Owl -->
+    <link rel="stylesheet" type="text/css" href="css/owl.css">
+    <!-- Animate.css -->
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.1.0/css/font-awesome.min.css">
+    <!-- Elegant Icons -->
+    <link rel="stylesheet" type="text/css" href="fonts/eleganticons/et-icons.css">
+    <!-- Main style -->
+    <link rel="stylesheet" type="text/css" href="css/cardio.css">
+    <link rel="stylesheet" type="text/css" href="css/pfamLink.css">
+    <link rel="stylesheet" type="text/css" href="css/bullet.css">
+</head>
+
+<body>
+    <div class="preloader">
+        <img src="img/loader.gif" alt="Preloader image">
+    </div>
+    <nav class="navbar">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#"><img src="img/logo-2.png" data-active-url="img/logo-active-2.png" alt=""></a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right main-nav">
+                    <li><a href="#pcbullet">Protein Coding</a></li>
+                    <li><a href="#res1">Candidate Pfam Domains</a></li>
+                    <li><a href="#moreCharts">More Charts</a></li>
+                    <li><a href="#downloads">Downloads</a></li>
+                    <li><a href="#help" class="btn btn-blue">Help</a></li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+    <section id="res1">
+        <div id="chart"></div>
+        <a id="download_btn_1" href="#" class="btn btn-blue-fill ripple">DOWNLOAD</a>
+        <div id="help_text">
+            <span>scroll mouse wheel to zoom</span>
+            <br>
+            <span>drag to pan</span>
+            <br>
+            <span>click on nodes to highlight and download links</span>
+        </div>
+        
+    </section>
+    <section id="pcbullet">
+        <!-- <div id="pdBulletChart"> -->
+        <div id="search" class="modal-popup">
+            <div id="pcBulletChart">
+                <button id="rr" hidden="true">rr</button>
+            </div>
+            <div id="pfamBulletChart">
+                <button id="ee" hidden="true">ee</button>
+            </div>
+            <div id="cathBulletChart">
+                <button id="ww" hidden="true">ww</button>
+            </div>
+            <form class="popup-form">
+                <input id="searchinput0" class="searchinput form-control form-white" type="text" size="30" onkeyup="showResult0(this.value)" placeholder="Search UniProt ID">
+                <div class="livesearch" id="livesearch0"></div>
+                <input id="searchinput1" class="searchinput form-control form-white" type="text" size="30" onkeyup="showResult1(this.value)" placeholder="Search HGNC ID">
+                <div class="livesearch" id="livesearch1"></div>
+                <input id="searchinput2" class="searchinput form-control form-white" type="text" size="30" onkeyup="showResult2(this.value)" placeholder="Search ApprovedSymbol">
+                <div class="livesearch" id="livesearch2"></div>
+                <input id="searchinput3" class="searchinput form-control form-white" type="text" size="30" onkeyup="showResult3(this.value)" placeholder="Search UCSC ID">
+                <div class="livesearch" id="livesearch3"></div>
+                <input id="searchinput4" class="searchinput form-control form-white" type="text" size="30" onkeyup="showResult4(this.value)" placeholder="Search Ensembl ID">
+                <div class="livesearch" id="livesearch4"></div>
+                <input id="searchinput5" class="searchinput form-control form-white" type="text" size="30" onkeyup="showResult5(this.value)" placeholder="Search RefSeq IDs">
+                <div class="livesearch" id="livesearch5"></div>
+            </form>
+        </div>
+        <div id="details">
+            <table class="detail-table">
+                <tr>
+                    <th>Approved Symbol</th>
+                    <td id="Approved-Symbol"></td>
+                </tr>
+                <tr>
+                    <th>UniProt ID</th>
+                    <td id="UniProt-ID"></td>
+                </tr>
+                <tr>
+                    <th>Strand</th>
+                    <td id="strand"></td>
+                </tr>
+                <tr>
+                    <th>Chromosome</th>
+                    <td id="Chromosome"></td>
+                </tr>
+                <tr>
+                    <th>Length</th>
+                    <td id="Length"></td>
+                </tr>
+                <tr>
+                    <th>Exon Count</th>
+                    <td id="exonCount"></td>
+                </tr>
+                <tr>
+                <td>
+                <a id="download_btn_2" href="#">Download</a>
+                </td>
+                </tr>
+            </table>
+        </div>
+        <!-- Scripts -->
+    </section>
+    <section id="moreCharts" class="section dark-bg">
+        <div class="container">
+            <div class="row title text-center">
+                <h2 class="margin-top white">More Charts</h2>
+                <h4 class="light white"></h4>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="team text-center">
+                        <div class="cover" style="background:url('img/cathLink.jpg'); background-size:cover;">
+                            <div class="overlay text-center">
+                                <h3 class="white"></h3>
+                                <h5 class="light light-white"></h5>
+                            </div>
+                        </div>
+                        <div class="title">
+                            <h4>Candidate Cath Domains</h4>
+                            <h5 class="muted regular">chart</h5>
+                        </div>
+                        <a href="cathLink" target="_blank" class="btn btn-blue-fill ripple">more...</a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="team text-center">
+                        <div class="cover" style="background:url('img/cathLink.jpg'); background-size:cover;">
+                            <div class="overlay text-center">
+                                <h3 class="white"></h3>
+                                <h5 class="light light-white"></h5>
+                            </div>
+                        </div>
+                        <div class="title">
+                            <h4>Candidate Mitochondrial Genes</h4>
+                            <h5 class="muted regular">chart</h5>
+                        </div>
+                        <a href="mitogene" target="_blank" class="btn btn-blue-fill ripple">more...</a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="team text-center">
+                        <div class="cover" style="background:url('img/cathLink.jpg'); background-size:cover;">
+                            <div class="overlay text-center">
+                                <h3 class="white"></h3>
+                                <h5 class="light light-white"></h5>
+                            </div>
+                        </div>
+                        <div class="title">
+                            <h4>Candidate Stem Cell Genes</h4>
+                            <h5 class="muted regular">chart</h5>
+                        </div>
+                        <a href="stemcellSG" target="_blank" class="btn btn-blue-fill ripple">more...</a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="team text-center">
+                        <div class="cover" style="background:url('img/repairgeneSG.jpg'); background-size:cover;">
+                            <div class="overlay text-center">
+                                <h3 class="white"></h3>
+                                <h5 class="light light-white"></h5>
+                            </div>
+                        </div>
+                        <div class="title">
+                            <h4>Candidate <br>DNA Repair Genes</h4>
+                            <h5 class="muted regular">chart</h5>
+                        </div>
+                        <a href="repairgeneSG" target="_blank" class="btn btn-blue-fill ripple">more...</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="downloads" class="section dark-bg">
+        <div class="container">
+            <div class="row title text-center">
+                <h2 class="margin-top white">Download</h2>
+                <h4 class="light white">Results</h4>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="team text-center">
+                        <div class="cover" style="background:url('img/gene.jpg'); background-size:cover;">
+                            <div class="overlay text-center">
+                                <h3 class="white"></h3>
+                                <h5 class="light light-white"></h5>
+                            </div>
+                        </div>
+                        <div class="title">
+                            <h4>Cancer Types</h4>
+                            <h5 class="muted regular"></h5>
+                        </div>
+                        <a href="downloads/Cancer Types.xlsx" class="btn btn-blue-fill ripple">DOWNLOAD</a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="team text-center">
+                        <div class="cover" style="background:url('img/gene.jpg'); background-size:cover;">
+                            <div class="overlay text-center">
+                                <h3 class="white"></h3>
+                                <h5 class="light light-white"></h5>
+                            </div>
+                        </div>
+                        <div class="title">
+                            <h4>Candidate Cath Domains</h4>
+                            <h5 class="muted regular"></h5>
+                        </div>
+                        <a href="downloads/Candidate Cath Domains.xlsx" class="btn btn-blue-fill ripple">DOWNLOAD</a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="team text-center">
+                        <div class="cover" style="background:url('img/gene.jpg'); background-size:cover;">
+                            <div class="overlay text-center">
+                                <h3 class="white"></h3>
+                                <h5 class="light light-white"></h5>
+                            </div>
+                        </div>
+                        <div class="title">
+                            <h4>Candidate Pfam Domains</h4>
+                            <h5 class="muted regular"></h5>
+                        </div>
+                        <a href="downloads/Candidate Pfam Domains.xlsx" class="btn btn-blue-fill ripple">DOWNLOAD</a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="team text-center">
+                        <div class="cover" style="background:url('img/gene.jpg'); background-size:cover;">
+                            <div class="overlay text-center">
+                                <h3 class="white"></h3>
+                                <h5 class="light light-white"></h5>
+                            </div>
+                        </div>
+                        <div class="title">
+                            <h4>Candidate Mitochondrial Genes</h4>
+                            <h5 class="muted regular"></h5>
+                        </div>
+                        <a href="downloads/Candidate Mitochondrial Genes.xlsx" class="btn btn-blue-fill ripple">DOWNLOAD</a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="team text-center">
+                        <div class="cover" style="background:url('img/gene.jpg'); background-size:cover;">
+                            <div class="overlay text-center">
+                                <h3 class="white"></h3>
+                                <h5 class="light light-white"></h5>
+                            </div>
+                        </div>
+                        <div class="title">
+                            <h4>Candidate Stem Cell Genes</h4>
+                            <h5 class="muted regular"></h5>
+                        </div>
+                        <a href="downloads/Candidate Stem Cell Genes.xlsx" class="btn btn-blue-fill ripple">DOWNLOAD</a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="team text-center">
+                        <div class="cover" style="background:url('img/gene.jpg'); background-size:cover;">
+                            <div class="overlay text-center">
+                                <h3 class="white"></h3>
+                                <h5 class="light light-white"></h5>
+                            </div>
+                        </div>
+                        <div class="title">
+                            <h4>Candidate DNA Repair Genes</h4>
+                            <h5 class="muted regular"></h5>
+                        </div>
+                        <a href="downloads/Candidate DNA Repair Genes.xlsx" class="btn btn-blue-fill ripple">DOWNLOAD</a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="team text-center">
+                        <div class="cover" style="background:url('img/gene.jpg'); background-size:cover;">
+                            <div class="overlay text-center">
+                                <h3 class="white"></h3>
+                                <h5 class="light light-white"></h5>
+                            </div>
+                        </div>
+                        <div class="title">
+                            <h4>Protein Coding Genes</h4>
+                            <h5 class="muted regular"></h5>
+                        </div>
+                        <a href="downloads/Protein Coding Genes.xlsx" class="btn btn-blue-fill ripple">DOWNLOAD</a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="team text-center">
+                        <div class="cover" style="background:url('img/gene.jpg'); background-size:cover;">
+                            <div class="overlay text-center">
+                                <h3 class="white"></h3>
+                                <h5 class="light light-white"></h5>
+                            </div>
+                        </div>
+                        <div class="title">
+                            <h4>List of Stem Cell Genes</h4>
+                            <h5 class="muted regular"></h5>
+                        </div>
+                        <a href="downloads/List of Stem Cell Genes.xlsx" class="btn btn-blue-fill ripple">DOWNLOAD</a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="team text-center">
+                        <div class="cover" style="background:url('img/gene.jpg'); background-size:cover;">
+                            <div class="overlay text-center">
+                                <h3 class="white"></h3>
+                                <h5 class="light light-white"></h5>
+                            </div>
+                        </div>
+                        <div class="title">
+                            <h4>List of DNA Repair Genes</h4>
+                            <h5 class="muted regular"></h5>
+                        </div>
+                        <a href="downloads/List of DNA Repair Genes.xlsx" class="btn btn-blue-fill ripple">DOWNLOAD</a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="team text-center">
+                        <div class="cover" style="background:url('img/gene.jpg'); background-size:cover;">
+                            <div class="overlay text-center">
+                                <h3 class="white"></h3>
+                                <h5 class="light light-white"></h5>
+                            </div>
+                        </div>
+                        <div class="title">
+                            <h4>Whole proteome CATH Domain List</h4>
+                            <h5 class="muted regular"></h5>
+                        </div>
+                        <a href="downloads/Whole proteome CATH Domain List.xlsx" class="btn btn-blue-fill ripple">DOWNLOAD</a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="team text-center">
+                        <div class="cover" style="background:url('img/gene.jpg'); background-size:cover;">
+                            <div class="overlay text-center">
+                                <h3 class="white"></h3>
+                                <h5 class="light light-white"></h5>
+                            </div>
+                        </div>
+                        <div class="title">
+                            <h4>Whole proteome Pfam Domain List</h4>
+                            <h5 class="muted regular"></h5>
+                        </div>
+                        <a href="downloads/Whole proteome Pfam Domain List.xlsx" class="btn btn-blue-fill ripple">DOWNLOAD</a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="team text-center">
+                        <div class="cover" style="background:url('img/gene.jpg'); background-size:cover;">
+                            <div class="overlay text-center">
+                                <h3 class="white"></h3>
+                                <h5 class="light light-white"></h5>
+                            </div>
+                        </div>
+                        <div class="title">
+                            <h4><br>Pfam vs. CATH</h4>
+                            <h5 class="muted regular"></h5>
+                        </div>
+                        <a href="downloads/Pfam vs. CATH.png" class="btn btn-blue-fill ripple">DOWNLOAD</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="help" class="section dark-bg">
+        <div class="container">
+            <div class="row title text-center">
+                <h2 class="margin-top white">Help</h2>
+                <h4 class="light white"></h4>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="team text-center">
+                        <div class="cover" style="background:url('img/gene.jpg'); background-size:cover;">
+                            <div class="overlay text-center">
+                                <h3 class="white"></h3>
+                                <h5 class="light light-white"></h5>
+                            </div>
+                        </div>
+                        <div class="title">
+                            <h4>Thesis Abstract(en)</h4>
+                            <h5 class="muted regular"></h5>
+                        </div>
+                        <a href="downloads/Thesis Abstracs in English.pdf" class="btn btn-blue-fill ripple">DOWNLOAD</a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="team text-center">
+                        <div class="cover" style="background:url('img/gene.jpg'); background-size:cover;">
+                            <div class="overlay text-center">
+                                <h3 class="white"></h3>
+                                <h5 class="light light-white"></h5>
+                            </div>
+                        </div>
+                        <div class="title">
+                            <h4>Thesis in Farsi</h4>
+                            <h5 class="muted regular"></h5>
+                        </div>
+                        <a href="downloads/thesis.pdf" class="btn btn-blue-fill ripple">DOWNLOAD</a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="team text-center">
+                        <div class="cover" style="background:url('img/gene.jpg'); background-size:cover;">
+                            <div class="overlay text-center">
+                                <h3 class="white"></h3>
+                                <h5 class="light light-white"></h5>
+                            </div>
+                        </div>
+                        <div class="title">
+                            <h4>READ ME</h4>
+                            <h5 class="muted regular"></h5>
+                        </div>
+                        <a href="downloads/Help.pdf" class="btn btn-blue-fill ripple">DOWNLOAD</a>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="row">
+            </div>
+            <div class="row bottom-footer text-center-mobile">
+                <div class="col-sm-8">
+                    <p>&copy; 2016 All Rights Reserved. Powered by <a href="https://www.linkedin.com/in/seirana-hashemi-8a2b5976">Seirana Hashemi</a> - <a href="https://github.com/farshadjafari">F-Djafari</a></p>
+                </div>
+                <!-- <div class="col-sm-4 text-right text-center-mobile">
+    <ul class="social-footer">
+        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+        <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+    </ul>
+</div>
+ -->
+            </div>
+        </div>
+    </footer>
+    <!-- Holder for mobile navigation -->
+    <div class="mobile-nav">
+        <ul>
+        </ul>
+        <a href="#" class="close-link"><i class="arrow_up"></i></a>
+    </div>
+    <!-- more -->
+    <!-- <script src="bulletjs/jquery-1.11.1.min.js"></script> -->
+    <script src="bulletjs/d3.v3.min.js"></script>
+    <script src="bulletjs/bullet.js"></script>
+    <script src="bulletjs/pcBulletData.js"></script>
+    <script src="bulletjs/pfamBulletData.js"></script>
+    <script src="bulletjs/cathBulletData.js"></script>
+    <script src="bulletjs/pcBullet.js"></script>
+    <script src="bulletjs/pfamBullet.js"></script>
+    <script src="bulletjs/cathBullet.js"></script>
+    <script src="bulletjs/livesearch.js"></script>
+    <script src="bulletjs/getitem.js"></script>
+    <!-- Scripts -->
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/typewriter.js"></script>
+    <script src="js/jquery.onepagenav.js"></script>
+    <script src="js/d3.v4.0.0-alpha.35.min.js"></script>
+    <script src="js/d3.v3.min.js"></script>
+    <script src="js/pfamLink.json"></script>
+    <!-- <script src="js/cathLink.json"></script> -->
+    <!-- <script src="js/cathLink2.js"></script> -->
+    <script src="js/pfamLink2.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function() {
+        scale = (0.3);
+        translate = [width * 50 / 100, height * 25 / 100];
+        svg.transition().duration(1000).attr("transform", "translate(" + translate + ")scale(" + scale + ")").each("end", function() {
+            // zoomBehavior.scale(scale).translate(translate);
+        });
+        // scale = (0.5);
+        // svg2.transition().duration(1000).attr("transform", "translate(" + translate + ")scale(" + scale + ")").each("end", function() {
+        //     zoomBehavior.scale(scale).translate(translate);
+        // });
+    });
+    </script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

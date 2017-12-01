@@ -1,0 +1,53 @@
+#chart {
+    width: 100%;
+    height: 100vh;
+}
+
+svg {
+    cursor: move;
+}
+
+.node {
+    font: 300 12px "Helvetica Neue", Helvetica, Arial, sans-serif;
+    fill: #fff;
+    cursor: pointer;
+}
+
+.node:hover {
+    fill: #ff0;
+}
+
+.link {
+    stroke: steelblue;
+    stroke-opacity: .2;
+    fill: none;
+    pointer-events: none;
+}
+
+.node:hover,
+.node--source,
+.node--target {
+    font-weight: 700;
+}
+
+.node--source {
+    fill: #d62728;
+}
+
+.node--target {
+    fill: #2ca02c;
+}
+
+.link--source,
+.link--target {
+    stroke-opacity: 1;
+    stroke-width: 2px;
+}
+
+.link--source {
+    stroke: #2ca02c;
+}
+
+.link--target {
+    stroke: #d62728;
+}

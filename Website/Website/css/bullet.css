@@ -1,0 +1,243 @@
+#pcBulletChart {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: auto;
+    padding-top: 60px;
+    position: relative;
+    /*width: 960px;*/
+    /*width: 790px;*/
+    width: 660px;
+}
+
+#pfamBulletChart {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: auto;
+    padding-top: 60px;
+    position: relative;
+    /*width: 960px;*/
+    /*width: 790px;*/
+    width: 660px;
+}
+
+#cathBulletChart {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: auto;
+    padding-top: 60px;
+    position: relative;
+    /*width: 960px;*/
+    /*width: 790px;*/
+    width: 660px;
+}
+
+#search {
+    position: relative;
+    margin: auto;
+    padding-top: 0px;
+    padding-top: 80px;
+    position: relative;
+    width: 100%;
+    background: none;
+    background-color: black;
+}
+
+#search:before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    opacity: 0.2;
+    background-image: url('../img/popup.jpg');
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+#findInput {
+    position: absolute;
+    right: 10px;
+    top: 30px;
+}
+
+.bullet {
+    font: 10px sans-serif;
+}
+
+.bullet .marker {
+    stroke: #ccc;
+    stroke-width: 5px;
+    cursor: pointer;
+}
+
+.bullet .tick line {
+    stroke: #fff;
+    stroke-width: .5px;
+}
+
+.bullet .tick {
+    fill: white;
+}
+
+.bullet .range.s0 {
+    fill: #eee;
+}
+
+.bullet .range.s1 {
+    fill: #ddd;
+}
+
+.bullet .range.s2 {
+    fill: #ccc;
+}
+
+.bullet .measure.s0 {
+    fill: lightsteelblue;
+}
+
+.bullet .measure.s1 {
+    fill: steelblue;
+}
+
+.bullet .title {
+    font-size: 14px;
+    font-weight: bold;
+    fill: white;
+}
+
+.bullet .subtitle {
+    fill: #fff;
+    font-size: 12px;
+}
+
+div.btooltip {
+    position: absolute;
+    text-align: center;
+    /*width: 60px;*/
+    width: auto;
+    height: auto;
+    padding: 15px;
+    font: 12px sans-serif;
+    background: darkblue;
+    border: 0px;
+    color: #acacac;
+    border-radius: 8px;
+    pointer-events: none;
+}
+
+.livesearch {
+    /*border: 1px solid rgb(165, 172, 178);*/
+    max-height: 100px;
+    overflow: auto;
+    width: 300px;
+    background-color: #fafafa;
+    z-index: 2;
+    position: absolute;
+}
+
+.livesearch a {
+    text-decoration: none;
+    color: #888;
+    width: 100%;
+    background-color: #fafafa;
+    float: right;
+    -webkit-transition: background .5s;
+    /* Safari */
+    transition: background .5s;
+    -webkit-transition: color .5s;
+    /* Safari */
+    transition: color .5s;
+}
+
+.livesearch a:hover {
+    background-color: #cfcfcf;
+    color: #000;
+}
+
+a {
+    cursor: pointer;
+}
+
+.detail-table {
+    position: absolute;
+    top: 65px;
+    top: 150px;
+    font-size: 20px;
+    left: 115px;
+}
+
+.detail-table table,
+th,
+td {
+    border: 1px solid white;
+    border-collapse: collapse;
+    min-width: 75px;
+    color: #47B3FF;
+}
+
+.detail-table table,
+th,
+td {
+    padding: 5px;
+    text-align: left;
+}
+
+.popup-form .form-control {
+    margin: 20px 0;
+    max-width: 370px;
+    display: inline-block;
+}
+
+.popup-form {
+    position: relative;
+    width: 90%;
+    max-width: none;
+    margin: 20px auto;
+}
+
+#livesearch0 {
+    left: 22px;
+    width: 370px;
+    top: 87px;
+    position: absolute;
+}
+
+#livesearch1 {
+    left: 395px;
+    width: 370px;
+    top: 87px;
+    position: absolute;
+}
+
+#livesearch2 {
+    right: 22px;
+    width: 370px;
+    top: 87px;
+    position: absolute;
+}
+
+#livesearch3 {
+    left: 22px;
+    width: 370px;
+    top: 196px;
+    position: absolute;
+}
+
+#livesearch4 {
+    left: 395px;
+    width: 370px;
+    top: 196px;
+    position: absolute;
+}
+
+#livesearch5 {
+    right: 22px;
+    width: 370px;
+    top: 196px;
+    position: absolute;
+}

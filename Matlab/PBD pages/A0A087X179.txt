@@ -1,0 +1,1297 @@
+<!DOCTYPE html><html lang="en">
+<head>
+    <link rel="alternate" type="application/rss+xml" title="RCSB PDB - Latest Released Structures" href="/pdb/rss/LastLoad"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <title>RCSB PDB - Gene View 
+
+
+
+
+
+
+
+
+
+ - TBC1D3E - TBC1 domain family member 3E
+</title>
+    
+
+
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta http-equiv="Cache-Control" content="max-age=3600">
+<meta http-equiv="Cache-Control" content="private">
+<meta http-equiv="Cache-Control" content="must-revalidate">
+<meta http-equiv="Pragma" content="private">
+
+
+<meta name="description" content="The PDB archive contains information about experimentally-determined structures of proteins, nucleic acids, and complex assemblies. As a member of the wwPDB, the RCSB PDB curates and annotates PDB data according to agreed upon standards. The RCSB PDB also provides a variety of tools and resources. Users can perform simple and advanced searches based on annotations relating to sequence, structure and function. These molecules are visualized, downloaded, and analyzed by users who range from students to specialized scientists."/>
+
+<link rel="image_src" href="http://www.rcsb.org/pdb/skins/web20/default/images/pdblogo.gif"/>
+
+<meta name="author" content="RCSB Protein Data Bank"/>
+<meta name="citation_author" content="RCSB Protein Data Bank"/>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- will put in the real article DOI once we have DOI column in mv_structure -->
+<meta name="citation_doi" content=""/>
+
+
+
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="email" content="info@rcsb.org"/>
+<meta name="Charset" content="UTF-8"/>
+<meta name="Distribution" content="Global"/>
+<meta name="Rating" content="General"/>
+<meta http-equiv="content-language" content="en-US"/>
+    <link rel="shortcut icon" href="/pdb/img/pdb.ico" type="image/x-icon"/>
+    <link rel="search" type="application/opensearchdescription+xml" title="RCSB Full Text or PDB ID Search " href="/pdb/rcsb_pdb_keywordIDSearch.xml"/>
+    <link rel="search" type="application/opensearchdescription+xml" title="RCSB Author Search" href="/pdb/rcsb_pdb_authorSearch.xml"/>
+    
+<link rel="canonical" href="http://www.rcsb.org/pdb/geneView.do?gene=TBC1D3E"/>
+
+    <!-- Google Analytics tracker code for: rcsb.org -->
+    <meta name="google-site-verification" content="sESjmGkFOONWjl0ez3izG4EHrjcCxzajqjlOT7UsHMo"/>
+    <!-- Google Analytics tracker code for: pdb.org -->
+    <meta name="google-site-verification" content="OcOa2oOfcTASODQ3irE8zVJieR8Zbj0LL0xvwJrb0vE"/>
+    <!-- Apple Smart App Header -->
+    <meta name="apple-itunes-app" content="app-id=529153183"/>
+    
+
+<script type="text/javascript">
+    var gaJsHost = (("https:" == document.location.protocol) ? "https://" : "http://");
+    document.write(unescape("%3Cscript src='" + gaJsHost + "stats.g.doubleclick.net/dc.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+    if (typeof _gat != 'undefined') {
+        var pageTracker = _gat._getTracker("UA-3923365-3");
+        pageTracker._initData();
+        pageTracker._trackPageview();
+        _gat._anonymizeIp();
+    } else {
+        // Create a dummy Google Analytics script that prevents JavaScript error messages.
+        var pageTracker = {
+            _addIgnoredOrganic: function (newIgnoredOrganicKeyword) {},
+            _addIgnoredRef: function (newIgnoredReferrer) {},
+            _addItem: function (orderId, sku, name, category, price, quantity) {},
+            _addOrganic: function (newOrganicEngine, newOrganicKeyword, opt_prepend) {},
+            _addTrans: function (orderId, affiliation, total, tax, shipping, city, state, country) {},
+            _clearIgnoredOrganic: function () {},
+            _clearIgnoredRef: function () {},
+            _clearOrganic: function () {},
+            _cookiePathCopy: function (newPath) {},
+            _deleteCustomVar: function (index) {},
+            _getName: function () {},
+            _setAccount: function () {},
+            _getAccount: function () {},
+            _getClientInfo: function (a) {},
+            _getDetectFlash: function (a) {},
+            _getDetectTitle: function (a) {},
+            _getLinkerUrl: function (targetUrl, useHash) {},
+            _getLocalGifPath: function () {},
+            _getServiceMode: function () {},
+            _getVersion: function () {},
+            _getVisitorCustomVar: function (index) {},
+            _link: function (targetUrl, useHash) {},
+            _linkByPost: function (formObject, useHash) {},
+            _setAllowAnchor: function (bool) {},
+            _setAllowHash: function (bool) {},
+            _setAllowLinker: function (bool) {},
+            _setCampContentKey: function (newCampContentKey) {},
+            _setCampMediumKey: function (newCampMedKey) {},
+            _setCampNameKey: function (newCampNameKey) {},
+            _setCampNOKey: function (newCampNOKey) {},
+            _setCampSourceKey: function (newCampSrcKey) {},
+            _setCampTermKey: function (newCampTermKey) {},
+            _setCampaignCookieTimeout: function (cookieTimeoutMillis) {},
+            _setCampaignTrack: function (bool) {},
+            _setClientInfo: function (bool) {},
+            _setCookiePath: function (newCookiePath) {},
+            _setCustomVar: function (index, name, value, opt_scope) {},
+            _setDetectFlash: function (bool) {},
+            _setDetectTitle: function (bool) {},
+            _setDomainName: function (newDomainName) {},
+            _setLocalGifPath: function (newLocalGifPath) {},
+            _setLocalRemoteServerMode: function () {},
+            _setLocalServerMode: function () {},
+            _setReferrerOverride: function (newReferrerUrl) {},
+            _setRemoteServerMode: function () {},
+            _setSampleRate: function (newRate) {},
+            _setSessionCookieTimeout: function (cookieTimeoutMillis) {},
+            _setVisitorCookieTimeout: function (cookieTimeoutMillis) {},
+            _trackEvent: function (category, action, opt_label, opt_value) {},
+            _trackPageview: function (opt_pageURL) {},
+            _trackTrans: function () {}
+        };
+    }
+</script>
+
+
+    <!-- Include the latest JQuery (we support) from our CDN -->
+<script type="text/javascript" src="https://cdn.rcsb.org/javascript/jquery/jquery-latest.min.js"></script>
+<!-- Include the latest Bootstrap (we support) from our CDN -->
+<script type="text/javascript" src="https://cdn.rcsb.org/javascript/bootstrap/latest/js/bootstrap.min.js"></script>
+<link rel="stylesheet" type="text/css" media="all" href="https://cdn.rcsb.org/javascript/bootstrap/latest/css/bootstrap.min.css"/>
+<!-- Include any other core 3rd party libraries from our CDN -->
+<link rel="stylesheet" href="https://cdn.rcsb.org/javascript/fontawesome/latest/css/font-awesome.min.css"/>
+     
+    <!-- WRO Includes -->
+    
+    <link rel="stylesheet" type="text/css" media="all" href="/pdb/assets/wro/global_v2.css?ver=1498580778208"/>
+    <script type="text/javascript" src="/pdb/assets/wro/global_v2.js?ver=1498580778208"></script>
+</head>
+<body>
+<!-- Top Navigation Bar -->
+<nav id="nav" class="navbar navbar-inverse navbar-fixed-top hidden-print" role="navigation">
+    <div id="UnsupportedBrowser"
+         style="width: 100%; border-bottom: 2px solid #FFA500; background-color: #FFFFFF; color: #000000; display: inline-block; font-size: .9em; line-height: 2em; text-align: center; font-weight: bold; font-style: italic;"
+         class="hide hidden-print">
+        <span class="label label-warning" style="font-size: 100%;">Warning</span>
+        You are using a web browser that we do not support. Our website will not work properly. Please update to a newer version or download a new web browser, such as Chrome or Firefox.
+    </div>
+    
+    <div class="container">
+        <!-- MyPDB Login - Separated from Navigation -->
+        <div id="mypdb_loginMenu" class="pull-right myPDBLogin_Area">
+            <!-- Split button -->
+            <div class="btn-group">
+                <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#myPDBLogin">MyPDB<span
+                        class="hidden-xs"> Login</span></button>
+                <button type="button" class="btn btn-warning dropdown-toggle" data-toggle="dropdown">
+                    <span class="caret"></span> <span class="sr-only">Toggle Dropdown</span>
+                </button>
+                <ul class="dropdown-menu" role="menu">
+                    <li><a href="/pdb/mypdb/signup.do">Need a new MyPDB account?</a></li>
+                    <li><a href="/pdb/mypdb/forgotPassword.do">Forgot login or password?</a></li>
+                    <li><a href="/pdb/static.do?p=help/mypdb.html">Need more MyPDB instructions?</a></li>
+                </ul>
+            </div>
+        </div>
+        <div id="mypdb_userMenu" class="pull-right myPDBLogin_Area">
+            <div class="btn-group">
+                <button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-user"></span> Welcome
+                    <span id="mypdb_userVal"></span>!
+                </button>
+                <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+                    <span class="glyphicon glyphicon-cog"></span> <span class="caret"></span>
+                    <span class="sr-only">Toggle Dropdown</span>
+                </button>
+                <ul class="dropdown-menu" role="menu">
+                    <li><a href="/pdb/mypdb/queryManager.do" title="Show MyPDB">Saved Query Manager</a></li>
+                    <li><a href="/pdb/mypdb/updateUser.do" title="User Account Details">User Account</a></li>
+                    <div id="mypdb_adminMenu">
+                        <li class="divider"></li>
+                        <li><a href="/pdb/mypdb/showUsers.do">Users</a></li>
+                        <li><a href="/pdb/mypdb/myPdbGroupMgr.do">Groups</a></li>
+                        <li><a href="/pdb/admin/viewStatus.do">Status</a></li>
+                        <li><a href="/pdb/admin/PropertiesView.do">Properties</a></li>
+                        <li><a href="/pdb/admin/viewSessions.do">Sessions</a></li>
+                        <li><a href="/pdb/admin/LoadersView.do">Loaders</a></li>
+                        <li><a href="/pdb/admin/runUpdate.do">Update</a></li>
+                        <li><a href="/pdb/admin/viewLoadResults.do">Load Results</a></li>
+                        <li><a href="/pdb/admin/runUtils.do">Structure Utilities</a></li>
+                        <li><a href="/pdb/admin/reconcile.do">Reconcile</a></li>
+                    </div>
+                    <li class="divider"></li>
+                    <li><a id="lhm_mypdb_logoff" href="/pdb/Logoff.do" title="Logout">Logout</a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle pull-left" data-toggle="collapse"
+                    data-target="#navbar-collapse-RCSB">
+                <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span
+                    class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand"
+               href="/pdb/home/home.do">RCSB PDB</a>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="navbar-collapse-RCSB">
+            <ul class="nav navbar-nav pull-left">
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Deposit <b class="caret"></b></a>
+
+                    <div class="dropdown-menu multi-column" id="DepositDropdownNav">
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-2 col-md-2">
+                                <ul class="dropdown-menu">
+                                    <li><h4>Prepare Data</h4></li>
+                                    <li><a href="http://pdb-extract.wwpdb.org/" target="_blank">pdb_extract</a></li>
+                                    <li><a href="http://sf-tool.wwpdb.org/" target="_blank">SF-Tool</a></li>
+                                    <li><a href="http://ligand-expo.rcsb.org/" target="_blank">Ligand Expo</a></li>
+                                    <li><a href="http://sw-tools.rcsb.org/apps/MAXIT/index.html"
+                                           target="_blank">MAXIT</a>
+                                </ul>
+                            </div>
+                            <div class="col-xs-12 col-sm-3 col-md-3">
+                                <ul class="dropdown-menu">
+                                    <li><h4>Validate Data</h4></li>
+                                    <li>
+                                        <a href="https://validate-rcsb.wwpdb.org"
+                                           target="_blank">Validation Server</a>
+                                    </li>
+                                    <li>
+                                        <a href="http://www.wwpdb.org/documentation/journals.php" target="_blank">
+                                            Information for Journals
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="http://www.wwpdb.org/task/validation-task-forces.php" target="_blank">
+                                            Validation Task Forces
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-xs-12 col-sm-3 col-md-2">
+                                <ul class="dropdown-menu">
+                                    <li><h4>Deposit Data</h4></li>
+                                    <li><a href="http://deposit.wwpdb.org/" target="_blank">wwPDB OneDep System</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-xs-12 col-sm-2 col-md-3">
+                                <ul class="dropdown-menu">
+                                    <li><h4>Deposition Help & Resources</h4></li>
+                                    <li><a href="http://www.wwpdb.org/deposition/faq.php" target="_blank">Deposit
+                                                                                                          FAQ</a></li>
+                                    <li><a href="http://www.wwpdb.org/deposition/tutorial.php"
+                                           target="_blank">Tutorials</a></li>
+                                    <li><a href="http://www.wwpdb.org/documentation/procedure.php" target="_blank">Annotation
+                                                                                                                   Policies</a>
+                                    </li>
+                                    <li><a href="http://www.wwpdb.org/documentation/policy.php" target="_blank">Processing
+                                                                                                                Procedures</a>
+                                    </li>
+                                    <li class="divider hidden-xs"></li>
+                                    <li><a href="http://mmcif.wwpdb.org/" target="_blank">PDBx/mmCIF Dictionary</a></li>
+                                    <li><a href="http://wwpdb.org/data/ccd" target="_blank">Chemical Component Dictionary</a></li>
+                                    <li><a href="http://www.wwpdb.org/documentation/file-format.php" target="_blank">PDB
+                                                                                                                     Format
+                                                                                                                     Guide</a>
+                                    </li>
+                                    <li><a href="http://biosync.sbkb.org/" target="_blank">BioSync
+                                                                                           Beamlines/Facilities</a></li>
+                                    <li><a href="http://sw-tools.rcsb.org/" target="_blank">Related Tools</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Search<b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="/pdb/secondary.do?p=v2/secondary/search.jsp#search_advanced-search">Advanced
+                                                                                                         Search</a></li>
+                        <li><a href="/pdb/secondary.do?p=v2/secondary/search.jsp#search_drilldown">Drilldown Search</a>
+                        </li>
+                        <li><a href="/pdb/secondary.do?p=v2/secondary/search.jsp#search_unreleased-and-new">Unreleased &
+                                                                                                            New
+                                                                                                            Entries</a>
+                        </li>
+                        <li><a href="/pdb/secondary.do?p=v2/secondary/search.jsp#search_sequences">Sequences</a></li>
+                        <li><a href="/pdb/secondary.do?p=v2/secondary/search.jsp#search_ligands">Ligands</a></li>
+                        <li><a href="/pdb/secondary.do?p=v2/secondary/search.jsp#search_drugs">Drugs & Drug Targets</a>
+                        </li>
+                        <li><a href="/pdb/secondary.do?p=v2/secondary/search.jsp#search_annotation">Browse by
+                                                                                                    Annotation</a></li>
+                        <li><a href="/pdb/static.do?p=general_information/pdb_statistics/index.html">PDB Statistics</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Visualize <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="/pdb/secondary.do?p=v2/secondary/visualize.jsp#visualize_ngl">NGL</a></li>
+                        <li><a href="/pdb/secondary.do?p=v2/secondary/visualize.jsp#visualize_jmol">Jmol</a></li>
+                        <li><a href="/pdb/secondary.do?p=v2/secondary/visualize.jsp#visualize_pv">PV</a></li>
+                        <li><a href="/pdb/secondary.do?p=v2/secondary/visualize.jsp#visualize_rcsb-viewer">RCSB PDB
+                                                                                                           Viewers</a>
+                        </li>
+                        <li><a href="/pdb/secondary.do?p=v2/secondary/visualize.jsp#visualize_ligands">Ligand
+                                                                                                       Explorer</a></li>
+                        <li>
+                            <a href="/pdb/secondary.do?p=v2/secondary/visualize.jsp#visualize_ligands-poseview">PoseView</a>
+                        </li>
+                        <li><a href="/pdb/secondary.do?p=v2/secondary/visualize.jsp#visualize_seq-proteinfeatures">Protein
+                                                                                                                   Feature
+                                                                                                                   View</a>
+                        </li>
+                        <li><a href="/pdb/secondary.do?p=v2/secondary/visualize.jsp#visualize_seq-genome">Human Gene
+                                                                                                          View</a></li>
+                        <li><a href="/pdb/secondary.do?p=v2/secondary/visualize.jsp#visualize_pathway">Pathway View</a></li>
+
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Analyze <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="/pdb/secondary.do?p=v2/secondary/analyze.jsp#Sequence">Sequence & Structure
+                                                                                            Alignment</a></li>
+                        <li><a href="/pdb/secondary.do?p=v2/secondary/analyze.jsp#Symmetry">Protein Symmetry</a></li>
+                        <li><a href="/pdb/secondary.do?p=v2/secondary/analyze.jsp#Quality">Structure Quality</a></li>
+                        <li><a href="/pdb/chromosome.do">Map Genomic Position to Protein</a></li>
+
+                        <li><a href="/pdb/static.do?p=general_information/pdb_statistics/index.html">PDB Statistics</a>
+                        <li class="divider hidden-xs"></li>
+                        <li><a href="/pdb/static.do?p=general_information/web_links/index.html">Third Party Tools</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="dropdown hidden-xs hidden-sm">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Download <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="/pdb/download/download.do#Structures">Coordinates & Experimental Data</a></li>
+                        <li><a href="/pdb/download/download.do#FASTA">Sequences</a></li>
+                        <li><a href="/pdb/download/download.do#Ligands">Ligands</a></li>
+                        <li><a href="/pdb/static.do?p=download/ftp/index.html">FTP Archive & Services</a></li>
+                        <li><a href="/pdb/static.do?p=download/http/index.html">HTTPS Services</a></li>
+                        <li><a href="/pdb/secondary.do?p=v2/secondary/other_download.jsp">Other Services</a></li>
+                        <li><a href="/pdb/software/rest.do">RESTful Web Services</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Learn <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li><h4>
+                            <a href="http://pdb101.rcsb.org" target="_blank"><img src="//cdn.rcsb.org/rcsb-pdb/v2/common/images/pdb101Logo.png" class="image_submenu"></a>
+                        </h4></li>
+                        <li><a href="http://pdb101.rcsb.org/more/about-pdb-101" target="_blank">About</a></li>
+                        <li><a href="http://pdb101.rcsb.org/motm/motm-by-title" target="_blank">Molecule of the Month</a></li>
+                        <li><a href="http://pdb101.rcsb.org/browse" target="_blank">Browse all Resources</a></li>
+                        <li><a href="http://pdb101.rcsb.org/learn/resources/paper_models" target="_blank">Educational Resources</a></li>
+                        <li><a href="http://pdb101.rcsb.org/teach/overview" target="_blank">Curricula</a></li>
+                        <li><a href="http://pdb101.rcsb.org/learn/guide-to-understanding-pdb-data" target="_blank">Guide to PDB Data</a></li>
+                        <li><a href="http://pdb101.rcsb.org/news" target="_blank">News and Events</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">More <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="/pdb/home/contactUs.do">Contact Us</a></li>
+                        <li>
+                            <a href="/pdb/static.do?p=general_information/about_pdb/policies_references.html#References">Citing
+                                                                                                                         Us</a>
+                        </li>
+                        <li>
+                            <a href="/pdb/static.do?p=general_information/about_pdb/policies_references.html">Usage &
+                                                                                                              Privacy</a>
+                        </li>
+                        <li><a href="/pdb/staticHelp.do?p=help/index.html">Help Topics</a></li>
+                        <li><a href="/pdb/static.do?p=general_information/about_pdb/index.html">About RCSB PDB</a></li>
+                        <li><a href="/pdb/static.do?p=general_information/about_pdb/contact/pdb_members.html">Team
+                                                                                                              Members</a>
+                        </li>
+                        <li><a href="/pdb/static.do?p=general_information/about_pdb/pdbac.html">Advisory Committee</a>
+                        </li>
+                        <li><a href="/pdb/static.do?p=general_information/news_publications/index.jsp">News</a></li>
+                        <li>
+                            <a href="/pdb/static.do?p=general_information/news_publications/articles/index.html">Publications</a>
+                        </li>
+                        <li>
+                            <a href="/pdb/static.do?p=general_information/about_pdb/contact/job_listings.html">Careers</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <!-- /.navbar-nav -->
+        </div>
+        <!-- /.navbar-collapse --><!-- /.container -->
+</nav>
+<!-- Modal for MyPDB Login -->
+<div class="modal fade" id="myPDBLogin" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title" id="myModalLabel">MyPDB Login</h4>
+            </div>
+            <div class="modal-body">
+                <form method="post" action="/pdb/admin/Logon.do" onsubmit="return true;" name="Logon" id="lhm_mypdb_Logon" role="form">
+                    <div class="form-group">
+                        <label for="lhm_mypdb_username">User Name</label>
+                        <input type="text" class="form-control" id="lhm_mypdb_username" name="username" placeholder="Enter myPDB User Name">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="lhm_mypdb_password">Password</label>
+                        <input type="password" class="form-control" id="lhm_mypdb_password" name="password" placeholder="Password">
+                    </div>
+
+                    <input type="hidden" id="lhm_mypdb_previousRequestUrl" value="" name="previousRequestUrl" />
+                    <button type="submit" value="Login" name="method" class="btn btn-primary"/>Submit</button>
+                    <button type="button" class="btn btn-default pull-right" data-dismiss="modal">Close</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Keep Search Bar functional. Will transfer to 'Header' tiles -->
+
+
+
+<div id="header">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-md-6 col-lg-5 hidden-xs" id="logo_container">
+                <a href="/pdb/home/home.do"><img src="//cdn.rcsb.org/rcsb-pdb/v2/common/images/rcsb_logo.png" id="rcsblogo" alt="RCSB PDB"></a>
+                <h2 id="tagline">An Information Portal to
+                    <a id="CurrentStructureCount" href="/pdb/search/smartSubquery.do?experimentalMethod=ignore&amp;smartSearchSubtype=HoldingsQuery&amp;moleculeType=ignore" class="emphasis">131485
+                    </a> Biological Macromolecular Structures</h2>
+
+                <div class="clearfix"></div>
+            </div>
+            <!-- Search Bar -->
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-7 hidden-print" id="search_container">
+                <form action="/pdb/search/navbarsearch.do" method="get" name="headerQueryForm" autocomplete="off" role="search" class="form-inline" id="headerQueryForm">
+                    <input type="hidden" name="f" id="fixeditem"/>
+                    <!-- Input Field -->
+                    <input type="text" class="form-control" name="q" id="autosearch_SearchBar" autocomplete="off" value="" placeholder="Search by PDB ID, author, macromolecule, sequence, or ligands">
+                    <!-- Submission -->
+                    <button type="submit" class="btn btn-default" id="searchbutton">Go</button>
+                </form>
+
+                <span class="quicklinks">
+                    <a href="/pdb/search/advSearch.do?search=new">Advanced<span class="hidden-xs"> Search</span></a> |
+                    <a href="/pdb/browse/jbrowse.do?t=4&amp;useMenu=no">Browse <span class="hidden-xs">by Annotations</span></a>
+                    <span id="SearchBarHistory" class="hide"> | <a href="/pdb/queries/queries.do"><span class="hidden-xs">Search </span>History<span id="SearchBarHistoryCount" class="queryCountValSpan"></span></a></span>
+                    <span id="SearchBarPreviousResults" class="hide"> | <a href="/pdb/results/results.do?startAt=0"><span class="hidden-xs">Previous </span>Results<span id="SearchBarPreviousResultsCount" class="queryResultCountValSpan"></span></a></span>
+                </span>
+            </div>
+        </div>
+        <ul id="PDBmembers" class="hidden-xs hidden-print">
+            <li>
+                <a href="http://pdb101.rcsb.org/"><img src="//cdn.rcsb.org/rcsb-pdb/v2/common/images/pdb101Logo.png" alt="PDB-101" id="pdb101logo"></a>
+            </li>
+            <li>
+                <a href="http://www.wwpdb.org/" target="_blank"><img src="//cdn.rcsb.org/rcsb-pdb/v2/common/images/Logo_wwpdb.png" alt="wwPDB" id="wwpdblogo"></a>
+            </li>
+            <li>
+                <a href="http://www.emdatabank.org/" target="_blank"><img src="//cdn.rcsb.org/rcsb-pdb/v2/common/images/Logo_EMDatabank.png" alt="EMDataBank" id="emdatabanklogo"></a>
+            </li>
+            <li>
+                <a href="http://ndbserver.rutgers.edu/" target="_blank"><img src="//cdn.rcsb.org/rcsb-pdb/v2/common/images/Logo_NDB.png" alt="NDB Nucleic Acid Database" id="ndblogo"></a>
+            </li>
+            <li>
+                <a href="http://sbkb.org/" target="_blank"><img src="//cdn.rcsb.org/rcsb-pdb/v2/common/images/Logo_SBKB.png" alt="SBKB Structural Biology Knowledgebase" id="sbkblogo"></a>
+            </li>
+            <li>
+                <a href="http://foundation.wwpdb.org/" target="_blank"><img src="//cdn.rcsb.org/rcsb-pdb/v2/common/images/Logo_wwPDBFoundation.png" alt="wwPDB Foundation" id="wwpdbfoundationlogo"></a>
+            </li>
+
+        </ul>
+        <ul id="socialmedia_section" class="fa-ul hidden-xs hidden-print">
+            <li>
+                <a href="https://www.facebook.com/RCSBPDB" target="_blank" title="Facebook" data-placement="top" data-toggle="tooltip"><i class="fa fa-facebook-square fa-lg"></i></a>
+            </li>
+            <li>
+                <a href="https://twitter.com/buildmodels" target="_blank" title="Twitter" data-placement="top" data-toggle="tooltip"><i class="fa fa-twitter fa-lg"></i></a>
+            </li>
+            <li>
+                <a href="https://www.youtube.com/user/RCSBProteinDataBank" target="_blank" title="YouTube" data-placement="top" data-toggle="tooltip"><i class="fa fa-youtube-play fa-lg"></i></a>
+            </li>
+            <li>
+                <a href="https://github.com/rcsb" target="_blank" title="Github" data-placement="top" data-toggle="tooltip"><i class="fa fa-github fa-lg"></i></a>
+            </li>
+        </ul>
+    </div>
+</div>
+<div class="container" id="maincontentcontainer">
+       
+    
+
+
+<ww:set var="geneName" value="geneName" scope="request" />
+
+<ww:set var="suggestedGeneNames" value="suggestedGeneNames" scope="request" />
+
+<ww:set var="assemblyVersion" value="assemblyVersion" scope="request" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div>
+    <div class="lb_head3" style="padding-top: 3px;">
+        <div class="box_contentWrapper">
+
+            <h1>TBC1D3E - TBC1 domain family member 3E </h1></div>
+
+
+    </div>
+    <div class="lb_foot3">&nbsp;</div>
+</div>
+
+<h3>
+    <span class="fa-stack">
+         <i class="fa fa-square-o fa-stack-2x"></i>
+    <i class="fa fa-bars fa-stack-1x"></i>
+</span>
+
+    Gene View <a 	href="/pdb/staticHelp.do?p=help/geneView.html"
+                    title="Gene View Help" class="helpTip"
+                    id="help_geneView"
+                    onclick="pageTracker._trackEvent('Action', 'Gene View', 'Gene View Help',0); newHelp('help/geneView.html');  return false;"
+>
+
+    <span class="iconSet-main icon-help" title="Help | Gene View">&nbsp;</span></a></h3>
+
+<p>
+
+    The Gene Browser allows to navigate the human genome and investigate the relationship between PDB entries and genes.
+</p>
+
+<table class="table">
+    
+
+    <tr>
+
+        <td>
+            Number of PDB entities (unique chains) for this gene:
+
+            
+            <span class="badge">no matching PDB entities</span>
+            
+        </td>
+
+
+        <td>
+
+        </td>
+
+        <td>
+
+            <a class="btn btn-primary"
+               data-toggle="tooltip" data-placement="top" title="a table of all human genes and their mapping to UniProt and PDB"
+               href="/pdb/browse/homo_sapiens.do"><i class="fa fa-list"></i> View list of all current human gene IDs</a>
+
+        </td>
+    </tr>
+
+    <tr>
+
+        <td colspan="3">
+            View protein features <a class="btn btn-success" href="/pdb/protein/A0A087X179"><i class="fa fa-bar-chart-o fa-rotate-90"></i> Protein Feature View</a>
+        </td>
+
+
+
+    </tr>
+</table>
+
+
+<div class="panel panel-default">
+    <!-- Default panel contents -->
+    <div class="panel-heading"> Cross References
+    </div>
+    <!-- Table -->
+    <table class="table">
+
+        <tr>
+
+
+            <td>
+                UniProt:
+                <a href="http://www.uniprot.org/uniprot/A0A087X179"  target="_new">A0A087X179<span class='iconSet-main icon-external' title='Link to Uniprot. '>&nbsp;</span></a>
+
+            </td>
+
+            <td>HGNC Approved Gene Symbol: <a href="http://www.genenames.org/cgi-bin/gene_symbol_report?match=TBC1D3E" target="_new">TBC1D3E<span class='iconSet-main icon-external' title='Link to HGNC. '>&nbsp;</span></a></td>
+
+        </tr>
+
+        <tr>
+
+            <td>
+
+                
+
+            </td>
+            <td>
+                
+
+                Ensembl
+
+                <a href="http://www.ensembl.org/Homo_sapiens/Gene/Summary?g=ENSG00000278599" target="_new">ENSG00000278599<span class='iconSet-main icon-external' title='Link to Ensembl. '>&nbsp;</span></a>
+                
+            </td>
+
+        </tr>
+
+        
+        <tr>
+
+            <td></td>
+
+            <td>
+                
+
+
+                Previous Names:
+
+                "TBC1 domain family, member 3E"
+
+                </td>
+
+        </tr>
+        
+        <tr>
+
+            <td>
+                
+
+
+                HgncId :
+
+                <a href="http://www.genenames.org/cgi-bin/gene_symbol_report?hgnc_id=HGNC:27071" target="_new">HGNC:27071<span class='iconSet-main icon-external' title='Link to Omim. '>&nbsp;</span></a>
+
+                </td>
+
+            <td>
+
+                
+
+                Omim:
+
+                <a href="http://www.omim.org/entry/610808" target="_new">610808<span class='iconSet-main icon-external' title='Link to Omim. '>&nbsp;</span></a>
+
+                </td>
+
+        </tr>
+
+        <tr>
+
+            <td>
+                
+
+                Refseq:
+
+                <a href="http://www.ncbi.nlm.nih.gov/nuccore/NM_001291466" target="_new">NM_001291466<span class='iconSet-main icon-external' title='Link to Refseq. '>&nbsp;</span></a>
+
+
+                </td>
+
+            <td>
+                </td>
+
+        </tr>
+
+    </table>
+</div>
+
+
+<div class="clear"></div>
+
+<div id="spacerBig">&nbsp;</div>
+
+<div class="panel panel-default">
+
+    <!-- now the content of this panel--!>
+    <!-- Table -->
+    <table class="table">
+
+        <tr>
+            <td> <strong> Genomic coordinates:</strong></td>
+            <td>
+                
+                Cytogenetic location:
+
+                <strong>17q12</strong>
+                
+
+                
+
+            </td>
+            <td>
+                <div class="dropdown">
+
+                    
+
+                    chr17:36,338,025-36,347,081
+
+                    <button class="btn btn-warning dropdown-toggle" type="button" id="geneViewMenu" data-toggle="dropdown" >
+                        Chromosome Location <span class="caret"></span>
+                    </button>
+
+
+                    <ul class="dropdown-menu " role="menu" aria-labelledby="actionMenu">
+
+
+                        
+                        <li role="presentation">
+                            <a href="/pdb/gene/?chromosome=chr17&range=36284018-36294915&v=hg37">chr17:36,284,018-36,294,915 (+) (NM_001291466)</a>
+                        </li>
+                        
+                        <li role="presentation">
+                            <a href="/pdb/gene/?chromosome=chr17&range=36337710-36348607&v=hg37">chr17:36,337,710-36,348,607 (-) (NM_001291466)</a>
+                        </li>
+                        
+                    </ul>
+                    
+                </div>
+            </td>
+
+            <td>
+                
+
+                <a href="javascript:resetLocation()"><i class="fa fa-refresh"></i> reset view</a>
+
+                
+            </td>
+        </tr>
+    </table>
+
+    <!-- end of panel !-->
+</div>
+
+
+
+
+
+ 
+
+
+
+<div class="panel panel-default">
+
+    <div class="panel-heading">
+
+        <div class="dropdown" >
+
+            <label for="assemblyDropdown"  class="control-label">Genome Assembly</label>
+
+
+            <button id="assemblyDropdown" class="btn btn-success dropdown-toggle  "
+                    type="button"  data-toggle="dropdown" aria-expanded="false">
+                GRCh37 <span class="caret"></span>
+            </button>
+
+            <ul class="dropdown-menu" role="menu" aria-labelledby="assemblyDropdown">
+
+                
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="/pdb/gene/TBC1D3E?v=hg38">GRCh38</a></li>
+                
+
+            </ul>
+
+            <a href="http://www.ncbi.nlm.nih.gov/projects/genome/assembly/grc/human/" data-toggle="tooltip" title="Using the human reference genome assembly V. 37"><span class="iconSet-main icon-help" >&nbsp;</span></a>
+
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+<script src="/pdb/assets/lib/karyotypesvg.min.js"></script>
+
+<div id="karyotypeView"></div>
+
+<script>
+
+    var karyotypesvg ;
+    var kt;
+
+    require(['karyotype'], function(KT) {
+
+        karyotypesvg = KT;
+
+        $(document).ready(function () {
+
+
+
+            var chr = "chr17";
+
+            kt = new karyotypesvg.Karyotype();
+
+            var dataLoc = 'https://cdn.rcsb.org//gene/hg37/chromosome.band.hg37.txt.gz';
+
+            kt.setDataLocation(dataLoc);
+
+            kt.setParent("#karyotypeView");
+
+            kt.init();
+
+
+            kt.addListener('viewerReady', function () {
+                kt.update(chr,36337710,36348607);
+
+                kt.updateScale();
+
+                console.log(kt.getSVG());
+
+                $(function() { $("[data-toggle='tooltip']").tooltip();});
+
+            });
+
+            kt.addListener('bandClicked', function (event) {
+                console.log(event);
+
+                updateDisplay(event.min, event.max) ;
+
+
+            });
+
+            kt.addListener('sliderMoved', function (event) {
+
+                console.log(event);
+
+                updateDisplay(event.min, event.max) ;
+
+
+
+            });
+
+            kt.addListener('mouseOverBand', function (event) {
+                //console.log(event);
+                $("[data-toggle='tooltip']").tooltip();
+            });
+        });
+    });
+
+    function updateDisplay(min, max){
+        var l = (max - min);
+
+        if ( l > 500000 ) {
+            console.log("region requested is too large. Resetting to 500 kb range.");
+            max = min + 500000;
+        }
+
+        console.log("updating display to " + min + "-"+max);
+        //window.location.href='/pdb/gene/?chromosome='+chr+'&range='+event.min+'-'+event.max+'&v=37';
+
+
+        // we only need to update Dalliance, since the addViewListener hook below
+        // will get triggered and kt is getting updated then.
+        // kt.update('17', min, max);
+
+        browser.setLocation("17",min, max);
+
+    };
+</script>
+
+
+
+
+<script language="javascript" src="https://cdn.rcsb.org//gene/release-0.13/dalliance-all.js?ver=1498580778208"></script>
+<script language="javascript">
+
+    console.log("creating browser with coords: 36337710 - 36348607 : 0" );
+
+    var browser = new Browser({
+        chr:                 '17',
+        viewStart:           36337710,
+        viewEnd:             36348607,
+        cookieKey:           'human-grc_37',
+        noPersistView: 		true,
+
+
+        coordSystem: {
+            speciesName: 'Human',
+            taxon: 9606,
+            auth: 'GRCh',
+            version: '37',
+            ucscName: 'hg19'
+        },
+
+
+        sources: [
+            {name: 'Genome',
+                twoBitURI: 'https://cdn.rcsb.org//gene/hg37/hg19.2bit',
+                tier_type: 'sequence',
+                provides_entrypoints: true,
+                pinned: true
+
+            },
+
+            {name: 'PDB',
+                desc: 'PDB sequences mapped to the genome',
+                provides_entrypoints: true,
+                uri: 'http://localhost:8080/pdb/rest/das/humanpdbtracks37/',
+                pennant: 'http://www.rcsb.org/favicon.ico',
+                collapseSuperGroups: true ,
+                stylesheet_uri: 'https://cdn.rcsb.org//gene/stylesheet/human_pdbtracks_stylesheet.xml',
+                featureInfoPlugin: function(f, info) {
+
+                    console.log(f);
+
+                    var pdbId = f.label.substring(0,4);
+
+                    var uniprotId = f.method;
+
+                    var pfvTxt  = makeElement('span','Map genomic region to protein sequence');
+                    var pfvLink = makeElement('a', uniprotId, {href: '/pdb/protein/' + uniprotId+'?chromosome='+ f.segment+'&range='+ f.min+'-'+ (f.max-1)+"&v=hg37"});
+                    var pfvDiv  = makeElement('div',[pfvTxt, ' ' , pfvLink ]);
+
+                    info.add(uniprotId,pfvDiv);
+
+                    info.add('RCSB Structure Summary', makeElement('a', pdbId, {href: '/pdb/explore.do?structureId=' + pdbId.toLowerCase()}));
+
+                    info.add('Image', makeElement('img', pdbId, {src: '/pdb/images/' + pdbId.toLowerCase() + "_bio_r_250.jpg"}));
+
+                    info.add("About: ", "The PDB track gives a graphical summary of the region of a gene for which an experimentally " +
+                            "obtained protein structure is available from the Protein Data Bank.");
+
+                }
+            },
+            {name: 'Genes',
+                desc: 'Gene structures from GENCODE www.gencodegenes.org',
+                bwgURI: 'https://cdn.rcsb.org//gene/hg37/gencode.bb',
+                stylesheet_uri: 'https://cdn.rcsb.org//gene/stylesheet/gencode.xml',
+                collapseSuperGroups: true,
+                pennant: 'https://cdn.rcsb.org//gene/icons/encode.jpg',
+                trixURI: 'https://cdn.rcsb.org//gene/hg37/geneIndex.ix',
+                featureInfoPlugin: function(f, info) {
+                    console.log(info);
+
+                    if (f.method == 'protein_coding') {
+                        var geneName = info.group.geneName;
+                        info.add('RCSB Gene View', makeElement('a', geneName, {href: '/pdb/gene/' + geneName}));
+
+                        var pfvTxt  = makeElement('span','Map genomic region to protein sequence');
+                        var pfvLink = makeElement('a', geneName, {href: '/pdb/protein/' + geneName+'?chromosome='+ f.segment+'&range='+ f.min+'-'+ (f.max-1)+"&v=hg37"})
+                        var pfvDiv  = makeElement('div',[pfvTxt, ' ' , pfvLink ]);
+
+                        info.add('RCSB Protein Feature View',pfvDiv);
+                    }
+
+                    var geneId = info.group.id;
+                    info.add('Ensembl Gene link', makeElement('a', geneId, {href: 'http://www.ensembl.org/Homo_sapiens/Gene/Summary?g=' + geneId}));
+
+                }
+            },
+//
+            {name: 'Repeats',
+                desc: 'Repeat annotation from UCSC',
+                bwgURI: 'https://cdn.rcsb.org//gene/hg37/repeats.bb',
+                stylesheet_uri: 'https://cdn.rcsb.org//gene/stylesheet/bb-repeats2.xml'},
+
+//                       {name: 'CpG',
+//                           desc: 'CpG observed/expected ratio',
+//                           uri: 'http://www.derkholm.net:8080/das/hg19comp/',
+//                           stylesheet_uri: 'https://cdn.rcsb.org//gene/stylesheet/cpg.xml'},
+
+            
+            {name: 'Conservation',
+                desc: 'Conservation',
+                bwgURI: 'https://cdn.rcsb.org//gene/hg37/phastCons46way.bw',
+                noDownsample: true}
+            
+
+        ],
+
+        browserLinks: {
+            Ensembl: 'http://www.ensembl.org/Homo_sapiens/Location/View?r=:-',
+            UCSC: 'http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg19&position=chr:-',
+            Sequence: 'http://www.derkholm.net:8080/das/hg19comp/sequence?segment=:,'
+        },
+
+
+        uiPrefix: '//cdn.rcsb.org//gene/release-0.13/',
+
+        setDocumentTitle: false,
+        disablePoweredBy: true,
+        noTitle: true,
+
+        hubs: ['http://ftp.ebi.ac.uk/pub/databases/ensembl/encode/integration_data_jan2011/hub.txt'],
+
+        searchEndpoint: new DASSource('http://www.derkholm.net:8080/das/hsa_59_37d/'),
+        karyotypeEndpoint: new DASSource('http://www.derkholm.net:8080/das/hsa_59_37d/')
+    });
+
+    function resetLocation(){
+        console.log("goto browser region: GeneChromosomePosition [geneName=TBC1D3E, genebankId=NM_001291466, chromosome=chr17, orientation=-, transcriptionStart=36337710, transcriptionEnd=36348607, cdsStart=36338025, cdsEnd=36347081, exonCount=14, exonStarts=[36337710, 36339575, 36340098, 36340661, 36341111, 36341919, 36342583, 36343885, 36344324, 36344875, 36345438, 36346761, 36347009, 36348510], exonEnds=[36338594, 36339728, 36340198, 36340727, 36341206, 36342040, 36342632, 36343995, 36344432, 36344956, 36345478, 36346847, 36347082, 36348607]]");
+        browser.setLocation("17", 36337710,36348607);
+        kt.update('chr17',36337710,36348607);
+    }
+
+    browser.addViewListener(function(chr,min,max){
+        //console.log("genome browser view updated : " + chr + " : " + min + " - " + max);
+        kt.update('chr'+chr,min,max);
+    });
+
+
+
+    
+
+</script>
+
+<a class="btn" href="#" role="button" onclick="requestFullscreen('svgHolder'); return false;"><i class="fa fa-arrows-alt"></i> Fullscreen</a>
+
+<div class="row-fluid">
+    <div class="span12">
+        <div id='svgHolder'  style="width:100%">Dalliance goes here...</div>
+    </div>
+</div>
+<div class="spacerBig"></div>
+
+
+<script>
+
+    function requestFullscreen(ele) {
+
+        $('#' +ele).css({"padding":"5%","background":"white"});
+
+        var elem = document.getElementById(ele);
+        if (elem.requestFullscreen) {
+            elem.requestFullscreen();
+        } else if (elem.msRequestFullscreen) {
+            elem.msRequestFullscreen();
+        } else if (elem.mozRequestFullScreen) {
+            elem.mozRequestFullScreen();
+        } else if (elem.webkitRequestFullscreen) {
+            elem.webkitRequestFullscreen();
+        }
+    }
+
+
+</script>
+
+
+
+
+<p>This feature requires an up-to-date <a href="/pdb/browser/browsercheck.do">web browser</a>.</p>
+
+<div class="panel panel-default">
+    <!-- Default panel contents -->
+    <div class="panel-heading">
+        Legend
+    </div>
+    <div class="panel-body">
+        <p>
+            The genome browser is based on <a target="_new" href="http://www.biodalliance.org">Biodalliance browser <span class='iconSet-main icon-external' title='Link to biodalliance website'>&nbsp;</span></a>
+            <br/>
+            The tracks display the following information:
+        </p>
+
+        <table class="table table-hover">
+
+
+            <tr>
+                <th>
+                    Track
+                </th>
+                <th>
+                    Info
+                </th>
+                <th>
+                    Data Source
+                </th>
+            </tr>
+
+            <tr>
+                <td>Genome</td>
+                <td>
+                    A ruler that provides location information. If the zoom level is high enough, it can show the nucleotides at the corresponding location,
+                    or a graphical encoding for each nucleotide (A: green, T: red, G: yellow, C: blue).
+                </td>
+                <td>
+                    <a href="http://www.ncbi.nlm.nih.gov/projects/genome/assembly/grc/human/" target="_new">GRCh37 assembly <span class='iconSet-main icon-external'>&nbsp;</span></a>
+                </td>
+            </tr>
+            <tr>
+                <td>PDB</td>
+                <td>
+                    The blue boxes on this track indicate regions for which coordinates have been observed in PDB. Clicking on this track shows
+                    additional information and links for more information.
+                </td>
+                <td>
+                    RCSB PDB
+                </td>
+            </tr>
+            <tr>
+                <td>Gene</td>
+                <td>
+                    This track represents the gene-structure on the genome. White boxes represent UTRs (untranslated regions). Orange: protein coding regions.
+                    The black lines connecting boxes represent introns.
+                </td>
+                <td>
+                    <a target="_new" href="http://www.gencodegenes.org">Gencode <span class='iconSet-main icon-external'>&nbsp;</span></a>
+                </td>
+            </tr>
+            <tr>
+                <td>Repeats</td>
+                <td>
+                    This track shows various repeat regions that have been annotated along the genome.
+
+                </td>
+                <td>
+                    <a target="_new" href="http://hgdownload.soe.ucsc.edu/goldenPath/hg19/bigZips/">UCSC genome browser <span class='iconSet-main icon-external'>&nbsp;</span></a>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Conservation</td>
+                <td>
+                    PhastCons conservation scores derived from multiple alignments of 45 vertebrate genomes to the human genome.
+
+                </td>
+                <td>
+                    <a target="_new" href="http://hgdownload-test.cse.ucsc.edu/goldenPath/hg19/phastCons46way/">UCSC genome browser <span class='iconSet-main icon-external'>&nbsp;</span></a>
+                </td>
+            </tr>
+
+        </table>
+
+    </div>
+</div>
+
+
+
+<h3>TBC1D3E Gene Structure</h3>
+
+
+Chromosome: chr17 <br/>
+
+
+    Genbank ID: NM_001291466
+
+
+Orientation: - <br/>
+
+Length coding sequence : 1647 nucleotides.
+
+
+<table class="table table-hover">
+    <tr><th>Region</th><th>start</th><th>end</th><th>region length</th><th>phase at end</th></tr><tr><td data-toggle="tooltip" data-placement="right" title="Untranslated Region">UTR</td><td>36,348,510</td><td>36,348,607</td><td></td><td></td></tr>
+<tr><td><div data-toggle="tooltip" data-placement="top" title="Untranslated Region">UTR</div></td><td>36,347,082</td><td>36,347,082</td><td></td><td></td></tr>
+<tr><td>Exon</td><td><a href="/pdb/gene/TBC1D3E?chromosome=chr17&range=36347010&v=hg19">36,347,010</a></td><td><a href="/pdb/gene/TBC1D3E?chromosome=chr17&range=36347081&v=hg19">36,347,081</a></td><td>72</td><td>0</td></tr>
+
+<tr><td>Exon</td><td><a href="/pdb/gene/TBC1D3E?chromosome=chr17&range=36346762&v=hg19">36,346,762</a></td><td><a href="/pdb/gene/TBC1D3E?chromosome=chr17&range=36346847&v=hg19">36,346,847</a></td><td>86</td><td>2</td></tr>
+<tr><td>Exon</td><td><a href="/pdb/gene/TBC1D3E?chromosome=chr17&range=36345439&v=hg19">36,345,439</a></td><td><a href="/pdb/gene/TBC1D3E?chromosome=chr17&range=36345478&v=hg19">36,345,478</a></td><td>40</td><td>0</td></tr>
+<tr><td>Exon</td><td><a href="/pdb/gene/TBC1D3E?chromosome=chr17&range=36344876&v=hg19">36,344,876</a></td><td><a href="/pdb/gene/TBC1D3E?chromosome=chr17&range=36344956&v=hg19">36,344,956</a></td><td>81</td><td>0</td></tr>
+<tr><td>Exon</td><td><a href="/pdb/gene/TBC1D3E?chromosome=chr17&range=36344325&v=hg19">36,344,325</a></td><td><a href="/pdb/gene/TBC1D3E?chromosome=chr17&range=36344432&v=hg19">36,344,432</a></td><td>108</td><td>0</td></tr>
+<tr><td>Exon</td><td><a href="/pdb/gene/TBC1D3E?chromosome=chr17&range=36343886&v=hg19">36,343,886</a></td><td><a href="/pdb/gene/TBC1D3E?chromosome=chr17&range=36343995&v=hg19">36,343,995</a></td><td>110</td><td>2</td></tr>
+<tr><td>Exon</td><td><a href="/pdb/gene/TBC1D3E?chromosome=chr17&range=36342584&v=hg19">36,342,584</a></td><td><a href="/pdb/gene/TBC1D3E?chromosome=chr17&range=36342632&v=hg19">36,342,632</a></td><td>49</td><td>0</td></tr>
+<tr><td>Exon</td><td><a href="/pdb/gene/TBC1D3E?chromosome=chr17&range=36341920&v=hg19">36,341,920</a></td><td><a href="/pdb/gene/TBC1D3E?chromosome=chr17&range=36342040&v=hg19">36,342,040</a></td><td>121</td><td>1</td></tr>
+<tr><td>Exon</td><td><a href="/pdb/gene/TBC1D3E?chromosome=chr17&range=36341112&v=hg19">36,341,112</a></td><td><a href="/pdb/gene/TBC1D3E?chromosome=chr17&range=36341206&v=hg19">36,341,206</a></td><td>95</td><td>0</td></tr>
+<tr><td>Exon</td><td><a href="/pdb/gene/TBC1D3E?chromosome=chr17&range=36340662&v=hg19">36,340,662</a></td><td><a href="/pdb/gene/TBC1D3E?chromosome=chr17&range=36340727&v=hg19">36,340,727</a></td><td>66</td><td>0</td></tr>
+<tr><td>Exon</td><td><a href="/pdb/gene/TBC1D3E?chromosome=chr17&range=36340099&v=hg19">36,340,099</a></td><td><a href="/pdb/gene/TBC1D3E?chromosome=chr17&range=36340198&v=hg19">36,340,198</a></td><td>100</td><td>1</td></tr>
+<tr><td>Exon</td><td><a href="/pdb/gene/TBC1D3E?chromosome=chr17&range=36339576&v=hg19">36,339,576</a></td><td><a href="/pdb/gene/TBC1D3E?chromosome=chr17&range=36339728&v=hg19">36,339,728</a></td><td>153</td><td>1</td></tr>
+<tr><td>Exon</td><td><a href="/pdb/gene/TBC1D3E?chromosome=chr17&range=36338026&v=hg19">36,338,026</a></td><td><a href="/pdb/gene/TBC1D3E?chromosome=chr17&range=36338594&v=hg19">36,338,594</a></td><td>569</td><td>0</td></tr>
+<tr><td><div data-toggle="tooltip" data-placement="top" title="Untranslated Region">UTR</div></td><td>36,337,711</td><td>36,338,025</td><td></td><td></td></tr>
+
+
+
+</table>
+
+
+<div class="spacerBig"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+<!-- Footer: stats, common links -->
+<div id="footer_main" class="hidden-print">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-8 text-center">
+                <ul class="col-xs-4 col-sm-12">
+                    <li><span class="row_header">About</span></li>
+                    <li><a href="/pdb/static.do?p=general_information/about_pdb/index.html">About Us</a></li>
+                    <li>
+                        <a href="/pdb/static.do?p=general_information/about_pdb/policies_references.html#References">Citing Us</a>
+                    </li>
+                    <li><a href="/pdb/static.do?p=general_information/news_publications/index.jsp">Publications</a>
+                    </li>
+                    <li><a href="/pdb/static.do?p=general_information/about_pdb/contact/pdb_members.html">Team</a></li>
+                    <li><a href="/pdb/static.do?p=general_information/about_pdb/contact/job_listings.html">Careers</a>
+                    </li>
+                    <li>
+                        <a href="/pdb/static.do?p=general_information/about_pdb/policies_references.html">Usage & Privacy</a>
+                    </li>
+                </ul>
+                <ul class="col-xs-4 col-sm-12">
+                    <li><span class="row_header">Help</span></li>
+                    <li><a href="/pdb/home/contactUs.do">Contact Us</a></li>
+                    <li><a href="/pdb/static.do?p=help/index.html">Help Topics</a></li>
+                    <li><a href="/pdb/static.do?p=home/faq.html">Website FAQ</a></li>
+                    <li><a href="/pdb/browser/browsercheck.do">Browser Test</a></li>
+                    <li><a href="/pdb/static.do?p=help/glossary.html">Glossary</a></li>
+                </ul>
+                <ul class="col-xs-4 col-sm-12">
+                    <li><span class="row_header">RCSB Partners</span></li>
+                    <li><a href="http://ndbserver.rutgers.edu/" target="_blank">Nucleic Acid Database</a></li>
+                    <li><a href="http://sbkb.org/" target="_blank">Structural Biology Knowledgebase</a></li>
+                </ul>
+                <ul class="col-xs-4 col-sm-12">
+                    <li><span class="row_header"><a href="http://wwpdb.org/" target="_blank" style="text-decoration: none; color: black">wwPDB Partners</a></span></li>
+                    <li><a href="http://www.rcsb.org/">RCSB PDB</a></li>
+                    <li><a href="http://www.ebi.ac.uk/pdbe/" target="_blank">PDBe</a></li>
+                    <li><a href="http://www.pdbj.org/" target="_blank">PDBj</a></li>
+                    <li><a href="http://www.bmrb.wisc.edu/" target="_blank">BMRB</a></li>
+                </ul>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 text-center">
+                <p>RCSB PDB (<a href="http://nar.oxfordjournals.org/content/28/1/235.abstract" target="blank">citation</a>) is managed by two members of the <br>Research Collaboratory for Structural Bioinformatics: <br>Rutgers and UCSD/SDSC
+                </p>
+                <img src="//cdn.rcsb.org/rcsb-pdb/v2/common/images/Logo_Rutgers-UCSD-SDSC.png" alt="Rutgers UCSD SDSC" usemap="#university-map" width="331" height="26">
+                <map name="university-map" id="university-map">
+                    <area shape="rect" coords="0,0,115,26" href="http://www.rutgers.edu/" alt="Rutgers" target="_blank">
+                    <area shape="rect" coords="116,0,225,26" href="http://ucsd.edu/" alt="UCSD" target="_blank">
+                    <area shape="rect" coords="226,0,331,26" href="http://www.sdsc.edu/" alt="SDSC" target="_blank">
+                </map>
+
+                <p>RCSB PDB is a member of the
+                    <span id="pdbmembers_footer">
+                        <a href="http://www.wwpdb.org/" target="_blank"><img src="//cdn.rcsb.org/rcsb-pdb/v2/common/images/Logo_wwpdb.png" alt="wwPDB" class="wwpdblogo"></a>
+                        <a href="http://www.emdatabank.org/" target="_blank"><img src="//cdn.rcsb.org/rcsb-pdb/v2/common/images/Logo_EMDatabank.png" alt="EMDataBank" id="emdatabanklogo"></a>
+                    </span>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="footer_grant">
+    <div class="container">
+        <div class="row">
+            <p>The RCSB PDB is funded by a grant (DBI-1338415) from the
+                <a href="http://www.nsf.gov/" target="_blank">National Science Foundation</a>, the
+                <a href="http://www.nih.gov/" target="_blank">National Institutes of Health</a>, and the
+                <a href="http://science.energy.gov/" target="_blank">US Department of Energy</a>.</p>
+        </div>
+    </div>
+</div>
+
+<!-- target div for jira-feedback modal form-->
+<div id="jira-fdbck"></div>
+
+</body>
+</html>
+
